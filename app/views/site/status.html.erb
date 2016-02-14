@@ -1,0 +1,18 @@
+<h1>Status</h1>
+
+
+<h2>Database</h2>
+
+<p>
+  There should be 1 user named Josh:
+  <span class="assertion assertion_<%= @db_correct %>"><%= @db_correct %></span>.
+</p>
+
+
+<h2>Environment Variables</h2>
+
+<p>
+  There should be a variable, <code>FAVORITE_NUMBER</code>,
+  set to <code>"twelve"</code>:
+  <span class="assertion assertion_<%= @env_vars_correct %>"><%= @env_vars_correct %></span>.
+</p>

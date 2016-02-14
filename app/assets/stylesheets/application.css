@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+.assertion {
+  color:       #FFF;
+  font-weight: bold;
+  padding:     0.25em 0.5em;
+}
+
+.assertion_true {
+  background: #2A2;
+}
+
+.assertion_false {
+  background: #A21;
+}
